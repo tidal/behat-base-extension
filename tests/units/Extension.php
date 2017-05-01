@@ -16,6 +16,7 @@ use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Behat\Testwork\ServiceContainer\ExtensionManager;
+use Behat\Behat\Context\ServiceContainer\ContextExtension;
 
 use Tidal\Behat\BaseExtension\Contract\Context\ContextClass\ClassResolverInterface;
 

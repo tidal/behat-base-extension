@@ -6,3 +6,7 @@ Common functionality for Behat extensions
 - simplifies extension setup
 - abstracts context resolving
 
+
+## Installation
+
+    $ composer require "tidal/behat-base-extension"

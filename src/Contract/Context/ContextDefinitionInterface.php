@@ -34,3 +34,4 @@ interface ContextDefinitionInterface
      */
     public function getClass() : string;
 }
+

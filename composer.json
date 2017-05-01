@@ -1,0 +1,32 @@
+{
+    "name": "tidal/behat-base-extension",
+    "description": "Common functionality for Behat extensions",
+    "keywords": ["behat", "extension", "base", "setup", "context", "resolver", "test", "bdd", "php7"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timo Michna",
+            "email": "timomichna@yahoo.de"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+    "require": {
+        "behat/behat": "^3.3"
+    },
+    "require-dev": {
+        "atoum/atoum": "^3.0",
+        "atoum/stubs": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tidal\\Behat\\BaseExtension\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tidal\\Behat\\BaseExtension\\tests\\units\\": "tests/unit"
+        }
+    }
+}

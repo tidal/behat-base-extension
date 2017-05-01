@@ -28,7 +28,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tidal\\Behat\\BaseExtension\\tests\\units\\": "tests/unit"
+            "Tidal\\Behat\\BaseExtension\\tests\\units\\": "tests/units"
         }
     }
 }

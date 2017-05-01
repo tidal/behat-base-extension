@@ -9,7 +9,6 @@
 
 namespace Tidal\Behat\BaseExtension\Contract\Context\ContextClass;
 
-use Behat\Behat\Context\ContextClass\ClassResolver as ClassResolverInterface;
 use Tidal\Behat\BaseExtension\Contract\Context\ContextDefinitionInterface;
 
 /**

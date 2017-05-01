@@ -18,7 +18,8 @@
     },
     "require-dev": {
         "atoum/atoum": "^3.0",
-        "atoum/stubs": "^2.5"
+        "atoum/stubs": "^2.5",
+        "symfony/expression-language": "^3.2"
     },
     "autoload": {
         "psr-4": {

@@ -41,7 +41,7 @@ interface ClassResolverInterface extends BaseInterface
     /**
      * @return array
      */
-    public function getContextAlias(): array;
+    public function getContextAliases(): array;
 
     /**
      * @param string $alias
